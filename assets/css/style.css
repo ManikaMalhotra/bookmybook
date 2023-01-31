@@ -1,0 +1,121 @@
+@import "theme.css";
+
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--rootColor);
+}
+
+#mainBody {
+    margin-left: 2%;
+    margin-right: 2%;    
+}
+
+.inputContainer {
+    margin: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.inputWrapperDiv {
+    margin-top: 10px;
+}
+
+.bookLabelClass {
+    color: var(--textColor);
+    font-size: var(--textMedium);
+    margin-right: 12px;
+    font-weight: 600;
+    width: 20%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.bookInputClass {
+    background-color: var(--inputBoxBackground);
+    width: 75%;
+    height: 32px;
+}
+
+.bookInputLabelClass:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: var(--btnBgColor);
+    font-size: var(--textMedium);
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.button:disabled {
+    background-color: #92bbcc;
+    cursor: not-allowed;
+}
+
+.btnContainer {
+    margin-top: 10px;
+}
+
+.tableContainer {
+    margin-top: 1.5%;
+    border-collapse: collapse;
+    width: auto;
+    font-size: var(--textMedium);
+}
+  
+.tableContainer td, .tableContainer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  
+.tableContainer tr:nth-child(even){
+    background-color: var(--tableHeaderBackgroundLighter);
+}
+  
+.tableContainer tr:hover {
+    background-color: var(--tableHoverBackground);
+}
+  
+.tableContainer th {
+    text-align: center;
+    background-color: var(--tableHeaderBackground);
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--headerBackground);
+    display: flex;
+    align-items: center;
+}
+
+.fa-book {
+    font-size: 30px;
+    color: var(--textColor);
+    margin-left: 10px;
+    background-color: var(--headerBackground);
+    margin-right: 10px;
+}
+
+.appLogo {
+    display: flex;
+    align-items: center;
+    font-size: var(--textLarge);
+    color: var(--textColor);
+    font-weight: 600;
+    background-color: var(--headerBackground);
+}
