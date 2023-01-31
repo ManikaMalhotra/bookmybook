@@ -15,14 +15,17 @@ body {
     margin-right: 2%;    
 }
 
-.inputContainer {
-    margin: 2%;
-    display: flex;
-    align-items: center;
-}
+/* common css */
 
 .flex {
     display: flex;
+}
+
+/* input-css */
+
+.inputContainer {
+    display: flex;
+    align-items: center;
 }
 
 .inputWrapperDiv {
@@ -35,7 +38,6 @@ body {
     margin-right: 12px;
     font-weight: 600;
     width: 20%;
-    margin: 1%;
     display: flex;
     align-items: center;
 }
@@ -49,6 +51,8 @@ body {
 .bookInputLabelClass:not(:last-child) {
     margin-bottom: 10px;
 }
+
+/* button-css */
 
 .button {
     background-color: var(--btnBgColor);
@@ -69,11 +73,17 @@ body {
     margin-top: 10px;
 }
 
+/* table-css */
+
 .tableContainer {
-    margin-top: 1.5%;
+    margin-top: 10px;
     border-collapse: collapse;
-    width: auto;
+    width: 100%;
     font-size: var(--textMedium);
+}
+
+table {
+    width: 100%;
 }
   
 .tableContainer td, .tableContainer th {
@@ -94,6 +104,8 @@ body {
     text-align: center;
     background-color: var(--tableHeaderBackground);
 }
+
+/* header-css */
 
 #header {
     width: 100%;
