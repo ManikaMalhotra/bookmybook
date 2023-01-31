@@ -36,7 +36,7 @@ function getInputObjectsArray() {
         },
         {
             id: 6,
-            key: "Dicount",
+            key: "Discount",
             type: NUMBER,
         },
         {
